@@ -46,6 +46,8 @@ html {
 	font-size: 10px;
 }
 
+
+
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.411764705882353px;
@@ -1102,7 +1104,7 @@ header .top-bar {
 header .logo {
 	float: left;
 	/* margin-left: 20px; */
-	margin-right: 50px;
+	margin-right: 25px;
 	margin-top: 25px;
 	position: center;
 }
@@ -1296,7 +1298,9 @@ header{
  *
  * ------------------------------------------------------------------- 
  */
+ 
 #intro {
+	
 	background: #151515 url(../images/bgg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2321,15 +2325,17 @@ header{
 	display: block;
 	letter-spacing: .2rem;
 	height: 6.6rem;
+	width: 12.12rem; /* Updated width to make it square */
 	line-height: 6.6rem;
 	padding: 0 3rem;
+	margin: 0 auto; /* Center the box horizontally */
 	margin-top: 4.8rem;
-	width: 100%;
-	background: #FF0077;
+	background: orange; /* Change the background color to orange */
 	color: #FFFFFF;
+	transition: background-color 0.3s ease; /* Add transition for background color */
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: red; /* Change the background color to red on hover */
 }
 #message-warning, #message-success {
 	display: none;
